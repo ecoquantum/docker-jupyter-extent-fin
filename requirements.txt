@@ -1,0 +1,10 @@
+jupyter_server_terminals
+yahoo_fin
+yfinance
+cufflinks
+pipreqs
+openpyxl
+PyExcelerate
+jupyter_contrib_nbextensions
+jupyter_nbextensions_configurator
+pyproj

@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+    jupyter:
+        image: james/my-datascience-notebook
+        restart: 'no'
+        volumes:
+            - C:\Document\docker-jupyter-extensible\notebooks:/home/jovyan
+        ports:
+            - "8888:8888"
+        environment:
+            NB_UID: ${UID}
+            NB_GID: ${GID}
